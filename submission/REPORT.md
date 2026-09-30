@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602647
 - **Lớp:** K4-L3B
 - **Repository URL:**https://github.com/AIVIETNAM-AIO-tlee/K4-L3-DAY13-LeQuangThanh-2A202602647-Monitoring-LLMOps
-- **Commit SHA cuối:**
+- **Commit SHA cuối:**f867b88 (HEAD -> main) feat: complete CP1 to CP4 with incident investigation and report
 - **Challenge ID:** `day13-k4-l3b-monitoring-llmops-v1`
 - **Tên project Langfuse cá nhân:** `day13-k4-l3b-2A202602647`
 
