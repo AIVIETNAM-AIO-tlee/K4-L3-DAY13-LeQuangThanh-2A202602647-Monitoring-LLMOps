@@ -17,12 +17,19 @@ except ImportError:  # pragma: no cover - chỉ dùng khi chưa cài requirement
 
         return decorator
 
+    @contextmanager
+    def _dummy_observation(**kwargs: Any):
+        yield
+
     class _DummyClient:
         def update_current_span(self, **kwargs: Any) -> None:
             return None
 
         def update_current_generation(self, **kwargs: Any) -> None:
             return None
+
+        def start_as_current_observation(self, **kwargs: Any):
+            return _dummy_observation()
 
     def get_client():
         return _DummyClient()
